@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <audio id="bg-music" autoplay loop>
+        <source src="bgcr.mp3" type="audio/mpeg">
+    </audio>       
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HAND CRICKET</title>
+    <link rel="stylesheet" href="p4.css">
+    <h1>HAND CRICKET</h1>
+    <div class="but">
+    <button id="b1">START</button></div>
+    <div class="startmenu">
+        <ul class="tcoin">TOSSING A COIN</ul>
+        <div class="selection">
+            <label>
+                <input type="radio" name="choice" value="Heads" id="heads"> Heads
+            </label>
+            <label>
+                <input type="radio" name="choice" value="Tails" id="tails"> Tails
+            </label>
+        </div>
+        <button id="tossbtn">Toss Coin</button>
+    </div>
+    <div class="result" id="res">
+        <!-- <img src="toss1.gif" alt=""> -->
+         <div id="tossr">
+            <img src="headtoss.jpeg" alt="" id="hd">
+            <img src="tailtoss.webp" alt="" id="td">
+            <div id="resultwon"></div>
+            <div id="resultlost"></div>
+         </div>
+    </div>
+    <br>
+    <div id="wonn">
+        <div class="cont">CHOOSE BAT OR BOWL</div>
+        <br>
+        <label>
+            <input type="radio" name="choice" value="bat" id="bat"> BAT
+        </label>
+        <label>
+            <input type="radio" name="choice" value="Tails" id="ball"> BOWL
+        </label>
+     </div>
+     <div id="lostt"></div>
+     <button id="b11" style="justify-content: center; align-items: center;">START GAME</button></div>
+</head>
+<body>
+<!-- <div id="infooo"></div> -->
+<div class="scoreboard" id="sb">
+    <table>
+        <td id="infooo"></td>
+        <td id="plasc"></td>
+        <td id="comsc"></td>
+    </table>
+</div>
+<div class="tl hid" id="tab1">
+    <table class="y11" style="background-color: rgb(238, 7, 230);">
+      <tr class="r1">
+        <td id="r11"></td>
+        <td id="r12"></td>
+      </tr>
+      <tr class="r2">
+        <td id="r21"></td>
+        <td id="r22"></td>
+      </tr>
+    </table>
+</div>
+<div class="bcon blur hid" id="btn100">
+    <!-- Buttons -->
+    <button class="imgbtn" id="s1">
+        <img src="one.png" alt="1">
+        </button>
+        <button class="imgbtn" id="s2">
+          <img src="two.png" alt="2">
+        </button>
+        <button class="imgbtn" id="s3">
+            <img src="three.png" alt="3">
+        </button>
+        <button class="imgbtn" id="s4">
+            <img src="four.png" alt="4">
+        </button>
+        <button class="imgbtn" id="s6">
+            <img src="six.jpeg" alt="6">
+        </button>
+    </div>
+    <img src="1c.jpeg" class="i10" id="i1" alt="" align="center">
+    <img src="2c.jpeg" class="i10" id="i2" alt="" align="center">
+    <img src="3c.jpeg" class="i10" id="i3" alt="" align="center">
+    <img src="4c.jpeg" class="i10" id="i4" alt="" align="center">
+
+    <img src="6c.jpeg" class="i10" id="i6" alt="" align="center">
+    <img src="outc.jpeg" class="i10 hid" id="outu" alt="" align="center">
+    <div id="jkkk">
+
+        <div id="celebrations"></div>
+        <div id="btnreset"><button id="reset">Reset</button></div>
+    </div>
+    <script src="p4.js"></script>
+</body>
+</html>
